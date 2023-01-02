@@ -3,3 +3,36 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Navbar */
+nav{
+    background-color: rgb(83, 83, 83);
+}
+
+nav ul{
+    width: 50%;
+    margin: 0 auto;
+}
+
+nav ul li{
+    list-style-type: none;
+    float: left;
+    width: 8rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid #e2beae ;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
