@@ -10,7 +10,7 @@ nav{
 }
 
 nav ul{
-    width: 50%;
+    width: 56rem;
     margin: 0 auto;
 }
 
@@ -35,4 +35,36 @@ nav ul li a:hover{
     content: "";
     display: table;
     clear: both;
+}
+
+/* Main */
+.first_photo{
+    background-color: black;
+}
+
+.first_photo img{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 6rem;
+}
+
+main h2{
+    text-align: center;
+    margin-top: 8rem;
+}
+main h2 span{
+    font-size: 3rem;
+}
+
+.second_photo img{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    transform: rotate(15deg);
+}
+.section1 h2{
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 4rem;
 }
